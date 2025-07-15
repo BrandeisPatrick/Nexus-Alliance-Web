@@ -2,20 +2,20 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
-  "8b_003_1",
-  "8b_006_1",
-  "cr_012_1",
-  "cr_201_1",
-  "nx_201_1",
-  "nx_202_1",
-  "sm_104_1",
-  "sm_209_1",
-  "tt_001_1",
-  "tt_001_2",
-  "tw_001_3",
-  "tw_003_1",
-  "vr_001_2",
-  "vr_104_1",
+  "8bits_8b_003_1",
+  "8bits_8b_006_1",
+  "crystafae_cr_012_1",
+  "crystafae_cr_201_1",
+  "nexus_alliance_nx_201_1",
+  "nexus_alliance_nx_202_1",
+  "star_marine_sm_104_1",
+  "star_marine_sm_209_1",
+  "time_tyrant_tt_001_1",
+  "time_tyrant_tt_001_2",
+  "tribe_warrior_tw_001_3",
+  "tribe_warrior_tw_003_1",
+  "vain_ranger_vr_001_2",
+  "vain_ranger_vr_104_1",
 ];
 
 export const pageAtom = atom(0);
